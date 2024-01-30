@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    border: solid 1px red;
+}
+.box {
+    display: grid;
+    grid-template-areas: "ladoe topo ladod"
+                         "ladoe centro ladod"
+                         "ladoe rodape ladod";
+    grid-template-rows: 100px 450px 100px ;
+    grid-template-columns: 250px 1fr 250px;
+}
+.topo {
+    background-color: brown;
+    grid-area: topo;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topo a {
+    padding: 30px;
+}
+.ladoe {
+    background-color: blueviolet;
+    grid-area: ladoe;
+    grid-template-areas: "c1"
+                         "c2"
+                         "c3";
+    grid-template-rows: 100px 100px 200px;
+    grid-template-columns: 200px;
+    display: grid;
+}
+.c1 {
+    background-color: aliceblue;
+    grid-area: c1;
+    margin-bottom: 10px;
+}
+.c1 img {
+    width: 100px;
+    margin-left: 50px;
+}
+.c2 {
+    background-color: yellow;
+    grid-area: c2;
+}
+.c2 p {
+    padding: 0px;
+    text-align: center;
+}
+.c3 {
+    background-color: greenyellow;
+    grid-area: c3;
+}
+.centro {
+    background-color: violet;
+    grid-area: centro;
+    display: flex;
+    justify-content: space-evenly;
+}
+.centro .f1 {
+    background-color: turquoise;
+    width: 300px;
+}
+.centro .f2{
+    background-color: palevioletred;
+    width: 300px;
+}
+.centro .f3 {
+    background-color: olive;
+    width: 300px;
+}
+.ladod {
+    background-color: yellow;
+    grid-area: ladod;
+    display: flex;
+    flex-direction: column;
+}
+.ladod .p1{
+    background-color: red;
+    height: 100px;
+}
+.ladod .p2{
+    background-color: burlywood;
+    height: 200px;
+}
+.ladod .p3{
+    background-color: springgreen;
+    height: 220px;
+}
+.rodape {
+    background-color: green;
+    grid-area: rodape;
+}
+.rodape p {
+    text-align: center;
+    padding-top: 25px;
+}

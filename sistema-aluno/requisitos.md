@@ -6,3 +6,4 @@
 4. Organizar e alterar tamanho do formulario cadastro aluno 
 5. Alterar tamanho do cadastro professor
 6. Organizar dados pessoais e dados profissionais da pagina professor
+7. Alterar os espaçamentos do formulario dos dados pessoais e profissionais da pagina professor

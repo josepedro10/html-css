@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a3c68c;
+}
+header > img {
+    height: 60px;
+    width: 90px;
+}
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+header nav > a:link {
+    text-decoration: none;
+}
+header nav > a:hover {
+    color: red;
+}
+.main {
+    display: flex;
+    height: 500px;
+}
+.main > section {
+    height: 500px;
+    width: 80%;
+    background-color: #879676;
+    flex: 4;
+}
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+th {
+    background-color: cornsilk;
+    
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
